@@ -1,0 +1,106 @@
+body{
+    margin: 0%;
+    padding: auto;
+    background-color: #4D4D4D;
+    color: #E6E6E6;
+}
+
+.blueBg{
+    background-color: #35ACFF;
+    height: 85vh;
+    width: 100vw;
+}
+
+.logo{
+    font-family: 'Niagara Engraved';
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.nav{
+    font-family: 'Segoe UI Emoji Regular';
+    font-size: large; 
+    font-weight: 100;
+    text-decoration: none;
+    padding-right: 10px;
+    color: #E6E6E6;
+}
+
+.nav:hover{
+    color: yellowgreen;
+    transition-property: color;
+    transition-duration: 350ms;
+}
+
+#home{
+    font-weight: bold;
+    color: chartreuse;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.col-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+
+.phones{
+    z-index: 1;
+    position: relative;
+    left: 690px;
+    top: 110px;
+
+}
+
+.Img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.button-47 { align-items: center; 
+    background: #ffffff00; 
+    border: 0 solid #E2E8F0; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 3px 4px -1px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; 
+    color: #dfeae6; 
+    display: inline-flex; 
+    font-family: Inter, sans-serif; 
+    font-size: 1rem; 
+    font-weight: 400; 
+    height: 46px; 
+    justify-content: center; 
+    line-height: 24px; 
+    overflow-wrap: break-word; 
+    padding: 24px; 
+    text-decoration: none; 
+    width: auto; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    user-select: none;
+    -webkit-user-select: none; 
+    touch-action: manipulation;
+}
+
+.button-47:hover{
+    color: aquamarine;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 4px 0px 0px rgba(0, 0, 0, 0.1); 
+}

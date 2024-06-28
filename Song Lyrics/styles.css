@@ -1,0 +1,51 @@
+html {
+    /* Base styles go here */
+    font: 14px/1.5 Arial, sans-serif;
+    background: darkgreen;
+   }
+   
+body {
+    background: rgb(231, 231, 231);
+    padding: 0px 0px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.headerDiv{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    background-color: rgb(108, 44, 236);
+    border-radius: 0px 0px 12px 12px;
+}
+
+.audioCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+    margin-left: 10px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.53);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.albumImg{
+
+}
+
+.audioPlayer{
+    width: 100vw;
+    background-color: #f1f1f3;
+}
+
